@@ -1,0 +1,48 @@
+body {
+  background: #e9e0fd;
+}
+
+.container-page {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 50px auto;
+  width: 75%;
+  max-width: 900px;
+  padding: 30px 35px;
+  border-radius: 8px;
+  box-shadow: 0 30px 50px #41326414;
+}
+
+h1,
+h2 {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  font-size: smaller;
+}
+
+.link-icon {
+  font-size: medium;
+}
