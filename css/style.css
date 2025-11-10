@@ -66,6 +66,10 @@ footer {
   line-height: 2;
 }
 
+.hero-h2 {
+  margin-bottom: 50px;
+}
+
 .button {
   padding: 10px 15px;
   text-decoration: none;
@@ -77,6 +81,8 @@ footer {
   color: #7545e6;
 }
 
-.link-icon {
+.footer-icons {
   font-size: medium;
+  text-decoration: none;
+  color: #212529;
 }

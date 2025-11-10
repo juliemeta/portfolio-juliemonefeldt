@@ -37,7 +37,9 @@
       <header>
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Julie M. Jeffries</a>
+            <a class="navbar-brand nav-link active" aria-current="page" href="/"
+              >Julie M. Jeffries</a
+            >
             <button
               class="navbar-toggler"
               type="button"
@@ -51,9 +53,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="/#portfolio">Portfolio</a>
                 <a class="nav-link" href="/about.html">About me</a>
-                <a class="nav-link" href="/portfolio.html">Portfolio</a>
                 <a class="nav-link" href="/contact.html">Contact</a>
               </div>
             </div>
@@ -63,19 +64,31 @@
 
       <div class="hero-section">
         <h1>Julie M. Jeffries</h1>
-        <h2>Front-end developer</h2>
-        <a href="/portfolio.html" class="button hero-button">Portfolio</a>
+        <h2 class="hero-h2">Front-end developer</h2>
+        <a href="/#portfolio" class="button hero-button">Portfolio</a>
       </div>
       <main>
-        <div class="main-container">
-          <p>About me... Cases... bla bla bla...</p>
+        <div class="main-container" id="portfolio">
+          <h2>Portfolio</h2>
+          <h3>Projects made by me</h3>
+          <p>All cases listed below are 100% cool and coded by me. 😎</p>
         </div>
       </main>
     </div>
     <footer>
-      <div class="link-icon">
-        <i class="fa-brands fa-square-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
+      <div class="footer-icons">
+        <a
+          href="https://www.linkedin.com/in/julie-meta-monefeldt/"
+          class="footer-icons"
+          target="_blank"
+          ><i class="fa-brands fa-square-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/juliemeta"
+          class="footer-icons"
+          target="_blank"
+          ><i class="fa-brands fa-github"></i>
+        </a>
       </div>
       <div class="author">Coded by Julie M. Jeffries.</div>
       <div class="copyright">&copy; 2025 - {current_year}</div>
