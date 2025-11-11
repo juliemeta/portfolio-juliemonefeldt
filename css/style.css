@@ -61,7 +61,7 @@ footer {
 }
 
 .hero-section {
-  height: 95vh;
+  height: 100vh;
   padding: 150px 100px;
   background: var(--secondary-background);
   text-align: center;
