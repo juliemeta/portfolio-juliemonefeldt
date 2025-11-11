@@ -41,3 +41,47 @@ fonts used:
   font-weight: 700;
   font-style: italic;
 }
+
+
+
+use later:
+ <div class="portfolio-websites mt-5">
+            <h3>👉 Websites</h3>
+
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <h4>Art Gallery</h4>
+                  <p>
+                    A website showcasing the art of <i>Galleri Monefeldt</i>.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="/images/weather.jpg"
+                    class="img-fluid p-1 shadow rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <h4>Webshop</h4>
+                  <p>
+                    <i>JM by Julie Meta</i> is a webshop owned and created by
+                    me.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="/images/weather.jpg"
+                    class="img-fluid p-1 shadow rounded"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>

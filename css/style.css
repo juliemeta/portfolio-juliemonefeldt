@@ -1,10 +1,11 @@
 :root {
-  --main-background-color: #fdfbe0;
-  --hero-background-color: #e9e0fd;
+  --primary-background: #fdfbe0;
+  --secondary-background: #e9e0fd;
+  --box-shadow: ;
 }
 
 body {
-  background: var(--main-background-color);
+  background: var(--primary-background);
 }
 
 h1,
@@ -35,6 +36,7 @@ a {
 }
 
 p {
+  line-height: 1.7;
 }
 
 header {
@@ -61,7 +63,7 @@ footer {
 .hero-section {
   height: 95vh;
   padding: 150px 100px;
-  background: var(--hero-background-color);
+  background: var(--secondary-background);
   text-align: center;
   line-height: 2;
 }
@@ -74,15 +76,25 @@ footer {
   padding: 10px 15px;
   text-decoration: none;
   border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.hero-button {
+.primary-button {
   background: #fff9a4;
   color: #7545e6;
+}
+
+.secondary-button {
+  background: #c1a8fd;
+  color: #fdfce2;
 }
 
 .footer-icons {
   font-size: medium;
   text-decoration: none;
   color: #212529;
+}
+
+a:hover {
+  opacity: 0.95;
 }

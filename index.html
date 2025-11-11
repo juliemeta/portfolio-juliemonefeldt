@@ -32,6 +32,7 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
     <div class="container-page">
       <header>
@@ -65,13 +66,80 @@
       <div class="hero-section">
         <h1>Julie M. Jeffries</h1>
         <h2 class="hero-h2">Front-end developer</h2>
-        <a href="/#portfolio" class="button hero-button">Portfolio</a>
+        <a href="/#portfolio" class="button primary-button">Portfolio</a>
       </div>
       <main>
         <div class="main-container" id="portfolio">
           <h2>Portfolio</h2>
-          <h3>Projects made by me</h3>
-          <p>All cases listed below are 100% cool and coded by me. 😎</p>
+          <p class="text-center">
+            All cases listed below are 100% cool and coded by me. 😎
+          </p>
+
+          <div class="portfolio-projects mt-5">
+            <h3>👉 Projects</h3>
+
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <a
+                    href="https://hvordan-er-vejret.netlify.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src="/images/weather.jpg"
+                      class="img-fluid p-1 shadow rounded-4"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <h4>Weather App</h4>
+                  <p class="mb-4">
+                    Get a five day weather forecast for any city in the world.
+                    <br />The real-time weather data is from an integrated
+                    <strong>weather API</strong>.
+                  </p>
+                  <a
+                    href="https://hvordan-er-vejret.netlify.app/"
+                    target="_blank"
+                    class="button secondary-button"
+                    >Go to Weather App <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <a
+                    href="https://vegetarian-recipes-generator.netlify.app/"
+                    target="_blank"
+                  >
+                    <img
+                      src="/images/vegetarian-recipe-generator.jpg"
+                      class="img-fluid p-1 shadow rounded-4"
+                      alt="AI vegetarian recipe generator"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <h4>Recipe Generator</h4>
+                  <p class="mb-4">
+                    In this vegetarian recipe generator I integrated an
+                    <strong>AI</strong> for the user to interact with.
+                  </p>
+                  <a
+                    href="https://vegetarian-recipes-generator.netlify.app/"
+                    target="_blank"
+                    class="button secondary-button"
+                    >Go to Recipe Generator
+                    <i class="fa-solid fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
