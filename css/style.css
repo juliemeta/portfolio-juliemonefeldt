@@ -98,3 +98,38 @@ footer {
 a:hover {
   opacity: 0.95;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h4 {
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 50px 10px;
+    height: 60vh;
+  }
+
+  .main-container {
+    margin: 0;
+    width: auto;
+  }
+
+  .secondary-button {
+    display: block;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .display-none-mobile {
+    display: none;
+  }
+}
