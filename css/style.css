@@ -99,7 +99,7 @@ a:hover {
   opacity: 0.95;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 40px;
   }
@@ -108,9 +108,8 @@ a:hover {
     font-size: 25px;
   }
 
-  h4 {
-    margin-top: 15px;
-    text-align: center;
+  h3 {
+    font-weight: 600;
   }
 
   .hero-section {
@@ -123,13 +122,13 @@ a:hover {
     width: auto;
   }
 
-  .secondary-button {
-    display: block;
-    margin: 0px;
+  .portfolio-projects {
     text-align: center;
   }
 
-  .display-none-mobile {
-    display: none;
+  .secondary-button {
+    display: block;
+    margin: 0 40px 10px 40px;
+    text-align: center;
   }
 }
