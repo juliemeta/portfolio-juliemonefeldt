@@ -119,11 +119,12 @@ a:hover {
   }
 
   .hero-section {
-    padding: 50px 10px;
+    padding: 90px 10px;
     height: 50vh;
   }
 
-  .main-container {
+  .main-container,
+  .main-container#portfolio {
     margin: 0;
     width: auto;
   }
