@@ -101,6 +101,18 @@ footer {
   color: #fdfce2;
 }
 
+.get-in-touch-section {
+  display: block;
+  margin: 50px 0 0 0;
+  padding: 20px;
+  border: 2px dotted var(--primary-background);
+  background: var(--secondary-background);
+}
+
+.get-in-touch-section a {
+  margin: 30px;
+}
+
 .footer-icons {
   font-size: medium;
 }
