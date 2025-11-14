@@ -60,7 +60,9 @@ footer {
 }
 
 .main-menu {
-  background-color: var(--secondary-background) !important;
+  background-color: #f4f0fc;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .main-container {
