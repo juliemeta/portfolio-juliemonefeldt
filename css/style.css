@@ -136,6 +136,10 @@ a:hover {
     font-size: 28px;
   }
 
+  .main-menu {
+    padding-right: 0;
+  }
+
   .hero-section {
     padding: 90px 10px;
     height: 50vh;
