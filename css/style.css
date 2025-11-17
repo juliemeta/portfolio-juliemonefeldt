@@ -63,7 +63,7 @@ footer {
 }
 
 .main-container {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
   margin: 50px auto;
   width: 75%;
   max-width: 900px;
@@ -106,16 +106,17 @@ footer {
 .get-in-touch-section {
   display: block;
   margin: 55px auto;
-  width: 60%;
+  width: 70%;
   max-width: 600px;
   padding: 20px;
   border-radius: 4px;
-  background: #e9e0fd69;
+  background: #e9e0fd9a;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .footer-icons {
   font-size: medium;
+  margin-bottom: 10px;
 }
 
 .footer-icons hr {
@@ -151,6 +152,10 @@ a:hover {
   .main-container#portfolio {
     margin: 0;
     width: auto;
+  }
+
+  .main-container {
+    box-shadow: none;
   }
 
   .portfolio-projects {
