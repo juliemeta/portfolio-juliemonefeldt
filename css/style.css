@@ -158,6 +158,15 @@ a:hover {
     text-align: center;
   }
 
+  .portfolio-projects h3 {
+    text-align: left;
+  }
+
+  .portfolio-projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
   .secondary-button {
     display: block;
     margin: 0 40px 10px 40px;
