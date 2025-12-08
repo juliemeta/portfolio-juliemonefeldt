@@ -25,7 +25,13 @@ h2 {
   font-size: 40px;
 }
 
-h3,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 30px;
+}
+
 h4,
 h5,
 h6,
@@ -135,6 +141,10 @@ a:hover {
     font-size: 28px;
   }
 
+  h3 {
+    font-size: 25px;
+  }
+
   .main-menu {
     padding-right: 0;
   }
@@ -156,10 +166,6 @@ a:hover {
 
   .portfolio-projects {
     text-align: center;
-  }
-
-  .portfolio-projects h3 {
-    text-align: left;
   }
 
   .portfolio-projects ul {
